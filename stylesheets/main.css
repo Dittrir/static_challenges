@@ -39,9 +39,10 @@ nav a {
 }
 
 #main-pic-title {
-  font-weight: 900;
+  font-weight: bold;
   margin-top: 20;
-  font-size: 25;
+  font-size: 20;
+  font-family: Arial, sans-serif;
 }
 
 .main-pic-content {
@@ -52,17 +53,21 @@ nav a {
 #right-section {
   width: 30%;
   padding-left: 10px;
-  margin-left: 15px;
+  margin-left: 10px;
   float: right;
+  font-weight: bolder;
 }
 
 .side {
-  padding: 10 20 20 40;
+  padding: 20 20 20 20;
   margin: 20 20 20 20;
 }
 
 .right-section-img {
+  background-image: src="./images/2.jpg";
   width: 100%;
+  margin-right: 220px;
+  background-position: right top;
 }
 
 footer {
@@ -76,5 +81,6 @@ footer {
   color: white;
   width: 95%;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 25px;
+  font-size: 12;
 }
