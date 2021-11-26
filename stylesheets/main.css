@@ -1,0 +1,86 @@
+nav a {
+  display: inline-flexbox;
+  color: white;
+  padding: 20 20 20 20;
+}
+
+#header {
+  background-color: rgb(225, 0, 0);
+  text-align: right;
+  font-family: Arial, sans-serif;
+  height:60px;
+}
+
+#login {
+  line-height: 60px;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 30;
+  float: left;
+  padding: 15 15 15 15;
+}
+
+#header2 {
+  background-color: rgb(60, 60, 60);
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+}
+
+#main-section {
+  width: 70%;
+  padding: 20 0 0 20;
+}
+
+#art-museum {
+  width: 100%;
+}
+
+#main-pic-title {
+  font-weight: bold;
+  margin-top: 20;
+  font-size: 20;
+  font-family: Arial, sans-serif;
+}
+
+.main-pic-content {
+  margin-left: 12px;
+  font-size: 12;
+}
+
+#right-section {
+  width: 30%;
+  padding-left: 10px;
+  margin-left: 10px;
+  float: right;
+  font-weight: bolder;
+}
+
+.side {
+  padding: 20 20 20 20;
+  margin: 20 20 20 20;
+}
+
+.right-section-img {
+  background-image: src="./images/2.jpg";
+  width: 100%;
+  margin-right: 220px;
+  background-position: right top;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgb(55, 55, 55);
+}
+
+#footer-text {
+  clear: both;
+  color: white;
+  width: 95%;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 12;
+}
